@@ -6,7 +6,7 @@ Create TCP socket communication client.
 ---
 ### Socket_Learning_TCP_Client(.h and .cpp)
 ---
-We need take following steps to create socket server for TCP communication:
+We need take following steps to create socket client for TCP communication:
 1. Start up socket with function WSAStartup() to find the usable Windowsock DLL. We use Winsock 2.2 dll in this sample as the sample in MSDN.
 2. Create socket client with the socket constructor. Parameter SOCK_STREAM was used for TCP protocol.
 3. Transfer the server ip adress from string to in_addr.
